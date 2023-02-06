@@ -5,6 +5,7 @@ import Head from '../common/sharedComponents/MetaHead'
 import Hero from '../components/Hero'
 import JoinSection from '../components/JoinSection'
 import QuoteSection from '../components/QuoteSection'
+import Footer from '../components/Footer'
 
 function Home() {
   const { locale, locales } = useRouter()
@@ -18,6 +19,7 @@ function Home() {
           <FeatureSection />
           <QuoteSection />
           <JoinSection />
+          <Footer />
         </div>
       </main>
     </>

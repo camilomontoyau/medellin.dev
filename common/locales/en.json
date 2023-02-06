@@ -24,5 +24,11 @@
       "placeholder": "Enter your email...",
       "submit": "Join the waiting list"
     }
+  },
+  "Footer": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "madeBy": "Made with ❤️ by developers from Medellín",
+    "copy": "All rights reserved."
   }
 }

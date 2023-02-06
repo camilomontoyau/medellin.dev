@@ -24,5 +24,11 @@
       "placeholder": "Introduce tu correo electrónico...",
       "submit": "Únete a la lista de espera"
     }
+  },
+  "Footer": {
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "madeBy": "Hecho con ❤️ por desarrolladorxs de Medellín",
+    "copy": "Todos los derechos reservados."
   }
 }

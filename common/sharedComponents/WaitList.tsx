@@ -6,7 +6,7 @@ type WaitListProps = {
 }
 
 const WaitListForm: FC<WaitListProps> = ({ classes }) => {
-  const t = useTranslations('WaitList');
+  const t = useTranslations('WaitList')
 
   const className = `
     grid gap-2 grid-cols-1 sm:w-full sm:flex sm:items-center sm:flex-wrap
