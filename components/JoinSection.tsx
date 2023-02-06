@@ -27,44 +27,44 @@ const JoinSection = () => {
             <div className="flex flex-wrap justify-center w-full mx-auto sm:max-w-3xl" >
               <img
                 src="img/avatars/ben.7656dd36.jpeg"
-                alt="User ben" className="user-avatar"
+                alt="User ben" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800"
               />
               <img
                 src="img/avatars/lone.png"
                 alt="User beth"
-                className="user-avatar"
+                className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800"
               />
               <img
                 src="img/avatars/claire.bfdbc161.jpeg"
                 alt="User claire"
-                className="user-avatar"
+                className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800"
               />
               <img
                 src="img/avatars/iwan.70e1c572.jpeg"
                 alt="User iwan"
-                className="user-avatar"
+                className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800"
               />
               <img
                 src="img/avatars/lori.07099057.jpeg"
                 alt="User lori"
-                className="user-avatar"
+                className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800"
               />
               <img
                 src="img/avatars/mali.a8248c71.webp"
                 alt="User mali"
-                className="user-avatar"
+                className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800"
               />
-              <img src="img/avatars/mi.68a0f720.jpeg" alt="User mi" className="user-avatar" />
-              <img src="img/avatars/nim.d6bbfb63.jpeg" alt="User nim" className="user-avatar" />
-              <img src="img/avatars/san.3b86301b.jpeg" alt="User san" className="user-avatar" />
-              <img src="img/avatars/sanjid.2d7a907f.jpeg" alt="User sanjid" className="user-avatar" />
-              <img src="img/avatars/steph.68f47994.jpeg" alt="User steph" className="user-avatar" />
-              <img src="img/avatars/zak.be2e6aeb.jpeg" alt="User zak" className="user-avatar" />
-              <img src="img/avatars/judith.8d0417f0.jpeg" alt="User judith" className="user-avatar" />
+              <img src="img/avatars/mi.68a0f720.jpeg" alt="User mi" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800" />
+              <img src="img/avatars/nim.d6bbfb63.jpeg" alt="User nim" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800" />
+              <img src="img/avatars/san.3b86301b.jpeg" alt="User san" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800" />
+              <img src="img/avatars/sanjid.2d7a907f.jpeg" alt="User sanjid" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800" />
+              <img src="img/avatars/steph.68f47994.jpeg" alt="User steph" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800" />
+              <img src="img/avatars/zak.be2e6aeb.jpeg" alt="User zak" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800" />
+              <img src="img/avatars/judith.8d0417f0.jpeg" alt="User judith" className="w-10 h-10 p-1 my-2 mx-8 rounded-full ring-2 to-blue-800 dark:to-blue-800" />
             </div>
             <div className="mt-6 sm:mt-12 sm:text-center" >
               <h2 className="text-3xl font-black tracking-tight text-gray-900 sm:text-4xl md:text-5xl md:leading-tight md:max-w-4xl md:mx-auto" >
-                Join our community of fans that love DevMeetups<span className="text-primary" >.</span>
+                Join our community of fans that love medellin.dev<span className="text-primary" >.</span>
               </h2>
             </div>
             <div className="mt-6 sm:mt-12 sm:mx-auto sm:max-w-lg flex flex-col items-center" ></div>

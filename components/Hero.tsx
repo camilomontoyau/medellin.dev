@@ -6,8 +6,8 @@ const Hero = () => {
       <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
         <div>
           <div className="flex items-center space-x-2">
-            <img className="w-auto h-8" src="img/devMeetups.svg" alt="DevMeetups logo" />
-            <p className="font-sans text-xl font-bold text-gray-900">DevMeetups</p>
+            <img className="w-auto h-8" src="img/devMeetups.svg" alt="medellin.dev logo" />
+            <p className="font-sans text-xl font-bold text-gray-900">medellin.dev</p>
           </div>
           <div className="mt-14">
             <div className="mt-6 sm:max-w-xl">
@@ -32,7 +32,7 @@ const Hero = () => {
                 />
                 <div>
                   <p className="sm:pl-2.5 text-base font-black tracking-tight text-gray-800 sm:text-lg">
-                    “DevMeetups has given me the chance to be part of a great community of developers.”
+                    “medellin.dev has given me the chance to be part of a great community of developers.”
                   </p>
                   <p className="sm:pl-2.5 text-sm sm:text-base font-bold text-gray-500">
                     Isabella Ermington
@@ -60,7 +60,7 @@ const Hero = () => {
             <img
               className="w-full rounded-l-3xl lg:w-auto 2xl:h-full 2xl:max-w-none"
               src="img/Video-Game-Developer.svg"
-              alt="DevMeetups"
+              alt="medellin.dev"
             />
           </div>
         </div>
