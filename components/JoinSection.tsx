@@ -1,6 +1,9 @@
+import { useTranslations } from 'next-intl'
+
 import WaitListForm from '../common/sharedComponents/WaitList'
 
 const JoinSection = () => {
+  const t = useTranslations('JoinSection')
 
   return(
     <section className="relative py-12 sm:py-20 md:py-24 lg:py-32" id="bgjxt2dp8z">
@@ -64,7 +67,8 @@ const JoinSection = () => {
             </div>
             <div className="mt-6 sm:mt-12 sm:text-center" >
               <h2 className="text-3xl font-black tracking-tight text-gray-900 sm:text-4xl md:text-5xl md:leading-tight md:max-w-4xl md:mx-auto" >
-                Join our community of fans that love medellin.dev<span className="text-primary" >.</span>
+                {t('title')}
+                <span className="text-primary" >.</span>
               </h2>
             </div>
             <div className="mt-6 sm:mt-12 sm:mx-auto sm:max-w-lg flex flex-col items-center" ></div>

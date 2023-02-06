@@ -1,0 +1,28 @@
+{
+  "Hero": {
+    "title": "Connect with developers from Medellín",
+    "eyebrow": "Get together with other developers and explore the Medellin tech community."
+  },
+  "FeatureSection": {
+    "sectionOne": {
+      "title": "Join developer communities",
+      "description": "Discover and join up with the developer communities in Medellin. Connect with like-minded professionals and grow your network.",
+      "image": "img/Developer-activity.svg"
+    },
+    "sectionTwo": {
+      "title": "Find tech events",
+      "description": "Never miss out on any tech events in Medellin. With medellin.dev, you can find the events you are interested in and join the conversation.",
+      "image": "img/Hand-coding_Artboard-1.svg"
+    }
+  },
+  "JoinSection": {
+    "title": "Join our community of fans that love medellin.dev"
+  },
+  "WaitList": {
+    "form": {
+      "label": "Email address",
+      "placeholder": "Enter your email...",
+      "submit": "Join the waiting list"
+    }
+  }
+}

@@ -1,6 +1,10 @@
+import { useTranslations } from 'next-intl'
+
 import WaitListForm from "../common/sharedComponents/WaitList"
 
 const Hero = () => {
+  const t = useTranslations('Hero')
+
   return(
     <section className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
       <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
@@ -12,10 +16,10 @@ const Hero = () => {
           <div className="mt-14">
             <div className="mt-6 sm:max-w-xl">
               <h1 className="text-4xl font-black tracking-tight text-gray-900 sm:text-6xl md:text-7xl">
-                Connect with developers from Medellin<span className="text-primary">.</span>
+                {t('title')}<span className="text-primary">.</span>
               </h1>
               <h2 className="mt-6 text-lg text-gray-500 sm:text-xl">
-                Get together with other developers and explore the Medellin tech community.
+                {t('eyebrow')}
               </h2>
             </div>
             <div className="mt-10 space-y-4">

@@ -1,0 +1,28 @@
+{
+  "Hero": {
+    "title": "Conéctate con desarrolladorxs de Medellín",
+    "eyebrow": "Reúnete con otrxs desarrolladorxs y explora la comunidad tecnológica de Medellín."
+  },
+  "FeatureSection": {
+    "sectionOne": {
+      "title": "Únete a las comunidades de desarrolladores",
+      "description": "Descubre y únete a las comunidades de desarrolladores en Medellín. Conéctate con profesionales afines y haz crecer tu red de contactos.",
+      "image": "img/Developer-activity.svg"
+    },
+    "sectionTwo": {
+      "title": "Encuentra eventos tecnológicos",
+      "description": "No te pierdas ningún evento tecnológico en Medellín. Con medellin.dev, puedes encontrar los eventos que te interesan y unirte a la conversación.",
+      "image": "img/Hand-coding_Artboard-1.svg"
+    }
+  },
+  "JoinSection": {
+    "title": "Únete a nuestra comunidad de fans que adoran medellin.dev"
+  },
+  "WaitList": {
+    "form": {
+      "label": "Dirección de correo electrónico",
+      "placeholder": "Introduce tu correo electrónico...",
+      "submit": "Únete a la lista de espera"
+    }
+  }
+}
