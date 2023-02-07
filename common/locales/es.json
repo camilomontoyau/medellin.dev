@@ -22,7 +22,8 @@
     "form": {
       "label": "Dirección de correo electrónico",
       "placeholder": "Introduce tu correo electrónico...",
-      "submit": "Únete a la lista de espera"
+      "submit": "Únete a la lista de espera",
+      "success": "¡Gracias por unirte a la lista de espera! Te avisaremos cuando esté listo."
     }
   },
   "Footer": {

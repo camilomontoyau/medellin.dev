@@ -1,4 +1,4 @@
-import { FC, FormEvent } from 'react'
+import { FC, FormEvent, useState } from 'react'
 import { useTranslations } from 'next-intl'
 
 type WaitListProps = {
@@ -6,6 +6,7 @@ type WaitListProps = {
 }
 
 const WaitListForm: FC<WaitListProps> = ({ classes }) => {
+  const [isSubmitted, setIsSubmitted] = useState(false)
   const t = useTranslations('WaitList')
 
   const className = `
@@ -23,6 +24,17 @@ const WaitListForm: FC<WaitListProps> = ({ classes }) => {
     const formData = new FormData(target)
     const form = Object.fromEntries(formData)
     console.log(form)
+    setIsSubmitted(true)
+  }
+
+  if (isSubmitted) {
+    return (
+      <div className={className}>
+        <p className="italic">
+          {t('form.success')}
+        </p>
+      </div>
+    )
   }
 
   return(

@@ -22,7 +22,8 @@
     "form": {
       "label": "Email address",
       "placeholder": "Enter your email...",
-      "submit": "Join the waiting list"
+      "submit": "Join the waiting list",
+      "success": "Thanks for joining the waiting list! We'll let you know when it's ready."
     }
   },
   "Footer": {
